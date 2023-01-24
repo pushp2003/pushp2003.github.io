@@ -1,0 +1,56 @@
+div{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+table{
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 310px;
+    margin-top: 20px;
+}
+tr{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+td{
+    border: 2px solid black;
+    width: 12.5%;
+}
+#black{
+    background-color: black;
+}
+#white{
+    background-color: white;
+}
+#black:hover{
+    transform: scale(1.05);
+    background-image: radial-gradient(#ffffff , #5b86e5);
+}
+#white:hover{
+    transform: scale(1.05);
+    background-image: radial-gradient(#ffffff , #5b86e5);
+}
+.brown{
+    text-align: center;
+}
+.brown i{
+    color: brown;
+    font-size: 70px;
+}
+.brown i:hover{
+    transform: scale(1.09);
+}
+.gray{
+    text-align: center;
+}
+.gray i{
+    color: gray;
+    font-size: 70px;
+}
+.gray i:hover{
+    transform: scale(1.09);
+}
