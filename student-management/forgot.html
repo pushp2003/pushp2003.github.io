@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student-Management</title>
+
+    <script src="js/forgot.js"></script>
+    <style>
+      body {
+        margin: 0px;
+        background-color: #1c1e210d;
+      }
+
+      .bodyy {
+        margin-top: 70px;
+        height: 500px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #1877f2;
+      }
+
+      .login {
+        text-align: center;
+        border: 1px solid #2d2d2d23;
+        background-color: white;
+        width: 400px;
+        /* height: 320px; */
+        margin-left: 515px;
+        border-radius: 6px;
+        box-shadow: -1px -1px 1px rgb(147 149 151 / 17%),
+          1px 1px 1px rgb(147 149 151 / 17%);
+      }
+
+      .login input {
+        height: 50px;
+        width: 330px;
+        font-size: large;
+        border-radius: 6px;
+        border: 1px solid #2d2d2d30;
+      }
+
+      .btn button {
+        height: 50px;
+        width: 338px;
+        font-size: large;
+        background-color: #1877f2;
+        color: white;
+        border: 1px solid #1877f2;
+        border-radius: 6px;
+      }
+
+      .btn button:active {
+        transform: translatey(1.5px);
+      }
+
+      .bk {
+        float: right;
+        margin-right: 29px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bodyy">
+      <h1>Student-Management</h1>
+      <div class="login">
+        <div class="head">
+          <h3>
+            Log in to <br />
+            Student-Management
+          </h3>
+        </div>
+
+        <div>
+          <input type="text" id="otp" placeholder="Enter OTP" />
+        </div>
+        <br />
+
+        <div class="btn">
+          <button onclick="login()">Log in</button><br /><br />
+        </div>
+        <a class="bk" href="index.html">Back to Log-in</a><br />
+        <p style="color: red" id="error"></p>
+      </div>
+    </div>
+  </body>
+</html>

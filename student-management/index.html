@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student-Management</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
+  </head>
+
+  <body>
+    <div class="bodyy">
+      <h1>Student-Management</h1>
+      <div class="login">
+        <div class="head">
+          <h3>
+            Log in to <br />
+            Student-Management
+          </h3>
+        </div>
+        <div class="mp">
+          <input
+            type="text"
+            id="mail"
+            placeholder="Email address or phone number"
+            required
+          /><br /><br />
+          <input type="password" id="pass" placeholder="Password" required />
+        </div>
+        <br />
+        <div class="btn">
+          <button id="login" onclick="login()">Log in</button>
+          <p style="color: red" id="error"></p>
+        </div>
+        <a class="fp" href="forgot.html">Forgot Password? </a>
+        <p>or</p>
+        <a href="#">Create new account?</a><br /><br />
+      </div>
+    </div>
+  </body>
+</html>

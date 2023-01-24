@@ -1,0 +1,102 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.head {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin-top: 70px;
+}
+
+.head img {
+    height: 95px;
+    margin-left: 440px;
+}
+
+.head1 {
+    float: right;
+    margin-right: 400px;
+}
+
+.head2 {
+    margin-left: 350px;
+}
+
+.head2 pre {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.id img {
+    margin-left: 400px;
+    margin-top: -600px;
+    border: 2px solid #000000;
+}
+
+button {
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 6px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.navbar {
+
+    background-color: #252424;
+    padding: 13px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+.navbar a {
+
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none !important;
+    font-size: large;
+}
+
+.navbar a:hover {
+    color: bisque;
+}
+
+.search {
+    border: 1px solid #4b4b4b;
+    border-radius: 19px;
+    margin-left: 50px;
+    height: 25px;
+}
+
+.lg {
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 9px !important;
+    height: 25px;
+}
+
+.lg a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.lg:active {
+    transform: translateY(2px);
+}
+
+.back:hover {
+    color: rgb(47, 128, 47) !important;
+}

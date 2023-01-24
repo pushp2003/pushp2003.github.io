@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+    background-image: url(/images/bgm.jpg);
+    background-size: 120vh 100vh;
+    background-position: top 30px left 300px;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: #302f2f;
+    padding: 6px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar a {
+    color: white;
+    padding: 6px;
+    text-decoration: none !important;
+}
+
+.navbar a:hover {
+    color: bisque;
+}
+
+.search {
+    border: 1px solid #4b4b4b;
+    border-radius: 19px;
+    float: right;
+    text-align: center;
+}
+
+.sidebar {
+    float: left;
+    display: block;
+    background-color: #4b4b4b;
+    height: 100vh;
+    width: 150px;
+    position: fixed;
+}
+
+.sidebar a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    height: 60px;
+    text-decoration: none !important;
+}
+
+.side {
+    margin-top: 40px;
+}
+
+.sidebar a:hover {
+    background: #252424;
+    color: aliceblue;
+}
+
+.lg {
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 9px !important;
+    height: 30px;
+}
+
+.lg a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.lg:active {
+    transform: translateY(2px);
+}
+
+.back:hover {
+    color: rgb(47, 128, 47) !important;
+}
+
+.bxz {
+    margin-top: 70px;
+    /* margin-left: 20px; */
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+.he1 {
+    font-size: 70px;
+}
+
+.qut {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.btns button {
+    margin: 25px;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #070708;
+    box-shadow: 10px 10px 15px;
+    border-radius: 10px;
+}
+
+.btns button:hover {
+    animation: shake 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translatey(2px);
+    }
+
+    10% {
+        transform: translatey(-2px);
+    }
+
+    20% {
+        transform: translatey(2px);
+    }
+
+    30% {
+        transform: translatey(-2px);
+    }
+
+    40% {
+        transform: translatey(2px);
+    }
+
+    50% {
+        transform: translatey(-2px);
+    }
+
+    60% {
+        transform: translatey(2px);
+    }
+
+    70% {
+        transform: translatey(-2px);
+    }
+
+    80% {
+        transform: translatey(2px);
+    }
+
+    90% {
+        transform: translatey(-2px);
+    }
+
+    100% {
+        transform: translatey(2px);
+    }
+}
+
+.btns {
+    padding: 20px 99px;
+}
+
+.btns button a {
+    font-size: large;
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btns button {
+    background-color: #1877f2;
+}
+
+.btns button:active {
+    transform: translatex(2px);
+}
+
+.btns button:hover:hover {
+    background-image: linear-gradient(to right, rgba(214, 6, 6, 0.646), rgb(82, 143, 201), rgba(47, 255, 0, 0.349));
+
+}

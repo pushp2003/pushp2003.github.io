@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: #4b4b4b;
+    padding: 6px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.navbar a {
+    color: white;
+    padding: 6px;
+    text-decoration: none !important;
+
+}
+
+.navbar a:hover {
+    color: bisque;
+}
+
+.search {
+    border: 1px solid #4b4b4b;
+    border-radius: 19px;
+    float: right;
+    text-align: center;
+}
+
+.carousel-inner img {
+    height: 758px;
+    width: 1600px;
+}
+
+.carousel-inner button {
+    color: white !important;
+}
+
+button {
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 9px !important;
+}
+
+button a {
+    text-decoration: none;
+    color: white !important;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.h11 {
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 9px !important;
+    height: 50px;
+    width: 350px;
+}

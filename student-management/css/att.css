@@ -1,0 +1,146 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: 300vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #252424;
+    padding: 13px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar a {
+
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none !important;
+    font-size: large;
+}
+
+.navbar a:hover {
+    color: bisque;
+}
+
+.search {
+    border: 1px solid #4b4b4b;
+    border-radius: 19px;
+    margin-left: 50px;
+    height: 25px;
+}
+
+.lg {
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 9px !important;
+    height: 25px;
+}
+
+.lg a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.lg:active {
+    transform: translateY(2px);
+}
+
+.back:hover {
+    color: rgb(47, 128, 47) !important;
+}
+
+.box {
+    border: 1px solid #5a5656e3;
+    border-radius: 7px;
+    height: 700px;
+    width: 700px;
+    margin-left: 370px;
+    box-shadow: 0px 0px 15px #252424;
+}
+
+.box1 {
+    background-color: rgb(3, 48, 3);
+    height: 699.6px;
+    width: 260px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    box-shadow: 0px 0px 15px #252424;
+}
+
+.box2 {
+    background-image: linear-gradient(rgba(0, 128, 0, 0.651), rgba(39, 202, 191, 0.943));
+    height: 699.5px;
+    width: 440px;
+    margin-top: -699.5px;
+    margin-left: 260px;
+    box-shadow: 0px 0px 15px #252424;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+h1 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.box1 img {
+    margin: 80px;
+}
+
+.box1 p {
+    color: #ffffff;
+    font-size: small;
+}
+
+.box1 input {
+    border: 1px solid #575555;
+    background-color: #575555;
+    height: 20px;
+    width: 135px;
+    color: #150b0b;
+}
+
+.box1 p {
+    margin-left: 60px;
+}
+
+.box1 input {
+    text-align: center;
+    margin-left: 55px;
+}
+
+.btns button {
+    margin: 25px;
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(1, 131, 1);
+    border-radius: 30px;
+}
+
+.btns {
+    padding: 20px 99px;
+}
+
+.btns button a {
+    font-size: large;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.btns button {
+    background-image: linear-gradient(rgba(77, 192, 154, 0.861), rgba(239, 245, 245, 0.943));
+}
+
+.btns button:active {
+    transform: translatex(2px);
+}
+
+.btns button:hover:hover {
+    background-image: linear-gradient(to left, white, red);
+
+}
