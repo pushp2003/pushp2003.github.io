@@ -1,0 +1,348 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+   margin: 0;
+}
+.header{
+    background-color: #2d2d2d;
+    padding: 20px 0px;
+    font-size: 16px;
+    height: 24px;
+    
+}
+.header1{
+    margin-left: 90px;
+}
+.header1 a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+.header1 a:hover{
+    color: red;
+}
+.header2 {
+    float: right;
+    margin-top: -7px;
+    font-size: 16.5px;
+}
+.header2 a {
+    text-decoration: none;
+    padding: 15px;
+
+}
+.header img{
+    height: 40px;
+    float: left;
+    margin-top: -10px;
+    margin-left: -60px;
+    
+}
+.header2 button{
+    background-color:#2557a7;
+    border-radius: 19px;
+    border: 1px;
+    height: 39px;
+    font-size: larger;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: left;
+}
+.header2 button:active{
+    transform: translateY(4px);
+    background-color: #0c3d8a;
+}
+.heading{
+    font-size:60px ;
+    margin-left: 155px;
+    margin-top: 145px;
+}
+.heading img{
+    float: right;
+    height: 240px;
+    margin-right: 160px;
+    margin-top: -190px;
+}
+.postjob button{
+    background-color:#2557a7;
+    color: aliceblue;
+    border: 1px;
+    height: 59px;
+    width: 210px;
+    margin-left: 155px;
+    font-size: larger;
+    border-radius: 9px;
+}
+.postjob button:active{
+    transform: translateY(4px);
+    background-color: #0c3d8a;
+}
+.int{
+    text-align: center;
+    margin-top: 50px;
+}
+.int a{
+    text-decoration: none;
+    color: #2557a7;
+}
+.brac{
+    margin-top: 269.5px;
+    margin-left: 150px;
+    font-size: large;
+    border: 1px solid #3836366e;
+    width: 350px;
+    text-align: center;
+    border-radius: 15px;
+}
+.brac h3{
+    color: #2557a7;
+}
+.brac1{
+    margin-top: -239px;
+    margin-left: 550px;
+    font-size: large;
+    border: 1px solid #3836366e;
+    width: 350px;
+    text-align: center;
+    border-radius: 15px;
+}
+.brac1 h3{
+    color: #2557a7;
+}
+.brac2{
+    margin-top: -240px;
+    margin-left: 940px;
+    font-size: large;
+    border: 1px solid #3836366e;
+    width: 350px;
+    text-align: center;
+    border-radius: 15px;
+}
+.brac2 h3{
+    color: #2557a7;
+}
+.htm h1{
+    font-size: 60px;
+    padding: 90px 0px;
+}
+.htm{
+    margin-left: 160px;
+    margin-top: 250px;
+    background-color: #38363610; ;
+    height: 430px;
+    width: 1150px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 210px;
+    border-bottom-right-radius: 5px;
+}
+.htm p{
+    font-size: x-large;
+    margin-top: -80px;
+}
+.img3 img{
+    margin-left: 160px;
+}
+.but1 button{
+    background-color:#2557a7;
+    color: aliceblue;
+    border: 1px;
+    height: 59px;
+    width: 210px;
+    margin-left: 155px;
+    font-size: larger;
+    border-radius: 9px;
+}
+.but1 button:active{
+    transform: translateY(4px);
+    background-color: #0c3d8a;
+}
+.but1 p{
+    margin-left: 440px;
+    margin-top: -49px;
+    font-size: larger;
+}
+.but1 a{
+    text-decoration: none;
+    color: #2557a7;
+}
+.info{
+    text-align: center;
+    margin-top: 300px;
+}
+.info sup{
+    color: #2557a7;
+}
+.info p{
+    font-size: larger;
+}
+.info h1{
+    font-size: 60px;
+}
+.pic1 img{
+    height: 100vh;
+    margin-top: 90px;
+    margin-left: 130px;
+}
+.hp1 {
+    text-align: center;
+    margin-top: 130px;
+}
+.hp1 h1{
+    font-size: 50px;
+}
+.hp1 p{
+    font-size: larger;
+}
+.txt{
+    text-align: center;
+    border: 1px solid #2d2d2d41;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: -1px -1px 10px #aaa9a9a2, 1px 1px 10px rgb(147 149 151 / 67%);
+    margin-left: 230px;
+    margin-top: 80px;
+    height: 440px;
+}
+.txt p{
+    font-size: larger;
+    margin-top: 50px;
+}
+.txt img{
+    height: 130px;
+    margin-top: 25px;
+}
+.txt b a{
+    text-decoration: none;
+    color: #2557a7;
+}
+.txt1 {
+    text-align: center;
+    border: 1px solid #2d2d2d41;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: -1px -1px 10px #aaa9a9a2, 1px 1px 10px rgb(147 149 151 / 67%);
+    margin-left: 575px;
+    margin-top: -440px;
+    height: 439px;
+}
+.txt1 img{
+    height: 120px;
+    margin-top: 25px;
+}
+.txt1 p{
+    font-size: larger;
+    margin-top: 50px; 
+}
+.txt1 b a{
+    text-decoration: none;
+    color: #2557a7;
+}
+.txt2 {
+    text-align: center;
+    border: 1px solid #2d2d2d41;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: -1px -1px 10px #aaa9a9a2, 1px 1px 10px rgb(147 149 151 / 67%);
+    margin-left: 920px;
+    margin-top: -440px;
+    height: 439px;
+}
+.txt2 p{
+    font-size: larger;
+    margin-top: 75px; 
+}
+.txt2 img{
+    height: 100px;
+    margin-top: 25px;
+}
+.txt2 b a{
+    text-decoration: none;
+    color: #2557a7;
+}
+.btpic img{
+    height: 82.4vh;
+    margin-top: 150px;
+}
+.hype{
+    text-align: center;
+    margin-top: 200px;
+}
+.hype button{
+    background-color:#2557a7;
+    color: aliceblue;
+    border: 1px;
+    height: 59px;
+    width: 210px;
+    font-size: larger;
+    border-radius: 9px;
+}
+.hype button:active{
+    transform: translateY(4px);
+    background-color: #0c3d8a;
+}
+.hype h1{
+    font-size: 50px;
+}
+.intro{
+    background-color: #2d2d2d0e;
+    margin-top: 210px;
+    height: 330px;
+}
+.intro1{
+    margin-left: 130px;
+}
+.intro1 b{
+    font-size: 33px;
+}
+.intro1 button{
+    text-align: center;
+    height: 36px;
+    width: 150px;
+    color: #2557a7;
+    font-size: 17px;
+    margin: 12px;
+    border-radius: 10px;
+    border: 1px solid #2d2d2d69 ;
+}
+.intro1 button:active{
+    transform: translateY(4x);
+    background-color: #959597a3;
+}
+.td1{
+    text-align: center;
+    margin-left: 700px;
+    margin-top: -180px;
+}
+.td1 td a{
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: small;
+    padding: 30px 10px;
+}
+.td1 td a:hover{
+    color: #852727;
+}
+.td1 th{
+    font-size: larger;
+    padding: 10px 60px;
+}
+.td1 td{
+    padding: 10px 10px;
+}
+.social p{
+    margin-left: 140px;
+}
+.icons  {
+    margin-left: 1000px;
+    margin-top: -35px;
+}
+.icons a{
+    padding: 10px 10px;
+    color: #2d2d2d;
+}
+.icons a:hover{
+    color: #2557a7;
+}
