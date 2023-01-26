@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container img{
+            position: absolute;
+            height: 400px;
+            width: 700px;
+            transition: 2s;
+        }
+        #container img:hover{
+            opacity: 0;
+        }
+        #overlay{
+            background-color: green;
+            height: 400px;
+            width: 700px;
+        }
+        #text{
+            font-size: xx-large;
+            font-weight: 900;
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+        }
+        #container img:hover #overlay{
+            opacity: 1;
+        }
+
+        #container1 img{
+            position: absolute;
+            height: 400px;
+            width: 700px;
+            transition: 2s;
+        }
+        #container1 img:hover{
+            opacity: 0.2;
+        }
+        #overlay1{
+            height: 400px;
+            width: 700px;
+        }
+        #btn{
+            text-align: center;
+            padding-top: 150px;
+        }
+        button{
+            padding: 20px 40px;
+            font-size: 30px;
+            background-color: green;
+            color: aliceblue;
+            font-weight: 500;
+            border: 1px solid green;
+            border-radius: 10px;
+        }
+        #container1 img:hover #btn{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="media/elephant-dream-mysterious-surreal-landscape-digital-art-5120x2880-8236.jpg" alt="an elephant image">
+        <div id="overlay">
+            <div id="text">HELLO!</div>
+        </div>
+    </div><br>
+    <div id="container1">
+        <img src="media/elephant-dream-mysterious-surreal-landscape-digital-art-5120x2880-8236.jpg" alt="an elephant image">
+        <div id="overlay1">
+            <div id="btn"><button>hello!</button></div>
+        </div>
+    </div>
+</body>
+</html>
