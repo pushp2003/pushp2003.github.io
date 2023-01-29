@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StD</title>
+    <link rel="stylesheet" href="log.css" />
+  </head>
+
+  <body>
+    <div class="bodyy">
+      <h1>Student-Management</h1>
+      <div class="login">
+        <div class="head">
+          <h3>
+            Log in to <br />
+            Student-Management
+          </h3>
+        </div>
+        <div class="mp">
+          <input
+            type="text"
+            id="mail"
+            placeholder="Email address or phone number"
+            required
+          /><br /><br />
+          <input type="password" id="pass" placeholder="Password" required />
+        </div>
+        <br />
+        <div class="btn">
+          <button id="login" onclick="login()">Log in</button>
+          <p style="color: red" id="error"></p>
+        </div>
+        <a class="fp" href="forgot.html">Forgot Password? </a>
+        <p>or</p>
+        <a href="#">Create new account?</a><br /><br />
+      </div>
+    </div>
+  </body>
+
+  <script>
+    let id = "pushp";
+    let pass = 1234;
+    function login() {
+      let x = document.getElementById("mail").value;
+      document.getElementById("mail").innerHTML = x;
+      let y = document.getElementById("pass").value;
+      document.getElementById("pass").innerHTML = y;
+      if (x == id && y == pass) {
+        location.href = "\index1.html";
+      } else {
+        var error = document.getElementById("error");
+        error.innerHTML = "Your mail or password is wrong.";
+        console.log("Error:Your mail or password is wrong.");
+      }
+    }
+  </script>
+</html>
