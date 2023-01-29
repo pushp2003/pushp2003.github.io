@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>gym web</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <form> 
+    <div class="login">
+        <div id="error" style="color: red;"></div>
+        <h2>Login From</h2>
+        <div class="set">
+            <span class="fa fa-user"></span>
+            <input type="text" id="mail" placeholder="Email Id" required>
+        </div>
+        <br>
+        <div class="set">
+            <span class="fa fa-lock"></span>
+            <input type="password" id="pass" placeholder="Password" required>
+        </div>
+        <br>
+        <div class="terms">
+            <input type="checkbox" required>
+            <span>Agree With <a href="#">terms and conditions</a></span>
+
+        </div>
+        <div>
+            <button onclick="login()">Log in</button>
+        </div>
+        <br>
+        <div class="newa">
+            <span><a href="#">Create new account</a></span>
+        </div>
+        <div class="or">Or</div>
+        <br>
+        <div>
+            <span style="color: aliceblue;">continue with...</span>
+        </div>
+        <div class="icon-button"> 
+
+            <a href="#"><span class="facebook"><i class="fa fa-facebook"></i>  Facebook</span></a>
+        
+            <a href="#"><span><i class="fa fa-google"></i>  Google</span></a>
+        
+         </div>
+    </div>
+    </form>
+    </body>
+
+    <script>
+        let id = "pushp";
+        let pass = 1234;
+        function login() {
+          let x = document.getElementById("mail").value;
+          document.getElementById("mail").innerHTML = x;
+          let y = document.getElementById("pass").value;
+          document.getElementById("pass").innerHTML = y;
+          if (x == id && y == pass) {
+            location.href = "\index1.html";
+          } else {
+            var error = document.getElementById("error");
+            error.innerHTML = "Your mail or password is wrong.";
+            console.log("Error:Your mail or password is wrong.");
+          }
+        }
+      </script>
+</html>
