@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #a1 {
+        height: 100px;
+        width: 100px;
+        background-color: brown;
+        animation: ani 5s infinite;
+        position: relative;
+      }
+      @keyframes ani {
+        0% {
+          top: 0px;
+          left: 0px;
+          transform: rotate(0deg);
+        }
+        25% {
+          background-color: aqua;
+          top: 200px;
+          left: 300px;
+          transform: rotate(0deg);
+        }
+        50% {
+          background-color: palevioletred;
+          top: 600px;
+          left: 500px;
+          transform: rotate(180deg);
+        }
+        75% {
+          background-color: rebeccapurple;
+          top: 400px;
+          left: 700px;
+          transform: rotate(180deg);
+        }
+        100% {
+          background-color: yellow;
+          top: 0px;
+          left: 900px;
+          transform: rotate(0deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="a1"></div>
+  </body>
+</html>

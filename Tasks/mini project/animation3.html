@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: rgb(255, 38, 38);
+            color: black;
+            height: 200px;
+            width: 200px;
+            transition: 5s;
+            font-weight: bolder;
+        }
+        .translate:hover{
+            -webkit-transform: translate(100px,100px);
+            -moz-transform: translate(100px,100px);
+            -o-transform: translate(100px,100px);
+            -ms-transform: translate(100px,100px);
+            transform: translate(100px,100px);
+            background-color: aqua;
+            color: blueviolet;
+        }
+        .translate3d:hover{
+            -webkit-transform: rotate3d(1,1,0,180deg);
+            -moz-transform: rotate3d(1,1,0,180deg);
+            -o-transform: rotate3d(1,1,0,180deg);
+            -ms-transform: rotate3d(1,1,0,180deg);
+            transform: rotate3d(1,1,0,180deg);
+            background-color: aqua;
+            color: blueviolet;
+        }
+        .rotate:hover{
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -o-transform:  rotate(360deg);
+            -ms-transform:  rotate(360deg);
+            transform:  rotate(360deg);
+            background-color: aqua;
+            color: blueviolet;
+        }
+        .skew:hover{
+            -webkit-transform: skew(45deg);
+            -moz-transform: skew(45deg);
+            -o-transform: skew(45deg);
+            -ms-transform: skew(45deg);
+            transform: skew(45deg);
+            background-color: aqua;
+            color: blueviolet;
+        }
+        .scale:hover{
+            -webkit-transform: scale(1.5);
+            -moz-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            transform: scale(1.5);
+            background-color: aqua;
+            color: blueviolet;
+        }
+        .opacity:hover{
+            opacity: 0.5;
+        }
+        .rgba:hover{
+            background-color: rgb(44, 196, 87) ;
+        }
+        .boxS:hover{
+           box-shadow: 0px 0px 30px blue;
+        }
+        .textS:hover{
+            text-shadow: 5px 5px rgb(255, 255, 255);
+        }
+        .radius:hover{
+            border-radius: 50%;
+        }
+        .overflow{
+            overflow: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="translate">TRANSLATE</div><hr>
+    <div class="translate3d">TRANSLATE3D</div><hr>
+    <div class="rotate">ROTATE</div><hr>
+    <div class="skew">SKEW</div><hr>
+    <div class="scale">SCALE</div><hr>
+    <div class="opacity">OPACITY</div><hr>
+    <div class="rgba">RGBA</div><hr>
+    <div class="boxS">BOX SHADOW</div><hr>
+    <div class="textS">TEXT SHADOW</div><hr>
+    <div class="radius">BORDER RADIUS</div><hr>
+    <div class="overflow">OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW </div><hr>
+</body>
+</html>
