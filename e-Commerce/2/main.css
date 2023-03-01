@@ -182,7 +182,6 @@ small {
     color: #555;
 }
 
-/* ------testimonial------ */
 
 .testimonial {
     padding-top: 100px;
@@ -223,7 +222,6 @@ small {
     font-size: 16px;
 }
 
-/*----------------------Brands--------------------*/
 
 .brands .row{
     width: 100%;
@@ -239,7 +237,6 @@ small {
     filter: grayscale(0);
 } */
 
-/*--------------footer--------------*/
 
 .footer {
     background: #000;
@@ -304,7 +301,6 @@ ul {
 }
 
 
-/* ----------------media query for menu-------------------- */
 
 @media only screen and (max-width: 800px) {
     nav ul {
@@ -335,7 +331,6 @@ ul {
 
 }
 
-/*------------------------- media query for less than 600 screen size ---------------------*/
 @media only screen and (max-width: 600px) {
     .row {
         text-align: center;
