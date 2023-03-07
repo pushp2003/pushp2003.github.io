@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>SNEAKER_STORE</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+    GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="150px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href=""><b>Home</b></a></li>
+                        <li><a href=""><b>Products</b></a></li>
+                        <li><a href=""><b>About</b></a></li>
+                        <li><a href=""><b>Contact</b></a></li>
+                        <li><a href=""><b>Account</b></a></li>
+                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row mt-2">
+                <div class="col-4">
+                    <h1>Give Your Footwear <br> A New Style ! </h1>
+                    <p>Success isn't always about greatness.It's about
+                        consistency.Consistent <br> hard work gains success. Greatness
+                        will come. </p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-6">
+                    <img id="img1" src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" height="299.5px">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container" id="gt">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.20099.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.61499.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.42299.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.41399.00</p>
+            </div>
+        </div>
+
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.21899.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.21349.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.45149.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.23599.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-9.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.22799.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.21199.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.11599.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg" height="410px">
+                <h4>NIKE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.21499.00</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="images/exclusive.png" class="offer-img" style="margin-top: -60px;">
+                </div>
+                <div class="col-4">
+                    <p>customize your shoes</p>
+                    <h1>Custom NIKE</h1>
+                    <small>Customizing is a great way to make plain shoes look more interesting and unique. It is also a great way to bring life back into an old pair of shoes. This article will give you a few ideas on what you can do to give your shoes a new look. It will also show you how to embellish them, paint them, and even cover them with fabric or glitter.</small><br>
+                    <a href="" class="btn">Buy Now &#8594; </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="reviews">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam eveniet soluta consectetur voluptatum, omnis
+                        assumenda non, perferendis quo ullam.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-1.jpg">
+                    <h3>Pushp Singh</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam eveniet soluta consectetur voluptatum, omnis
+                        assumenda non, perferendis quo ullam.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-2.jpg">
+                    <h3>Ansh Patel</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam eveniet soluta consectetur voluptatum, omnis
+                        assumenda non, perferendis quo ullam.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-3.jpg">
+                    <h3>Yash Chavda</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <img src="images/logo.png" class="img" id="logo1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and Ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <h3>About</h3>
+                        <ul>
+                            <li>About us</li>
+                            <li>Contact us</li>
+                            <li>Careers</li>
+                            <li>Coupons</li>
+                            <li>RedStore stories</li>
+                            <li>Corporate Information</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Policy</h3>
+                        <ul>
+                            <li>Return Policy</li>
+                            <li>Terms of Use</li>
+                            <li>Security</li>
+                            <li>Privacy</li>
+                            <li>Sitemap</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Help</h3>
+                        <ul>
+                            <li>FAQ</li>
+                            <li>Payment</li>
+                            <li>Shipping</li>
+                            <li>Cancellation & Return</li>
+                            <li>Report Infringement</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-5">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle() {
+                if (MenuItems.style.maxHeight == "0px") {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</body>
+
+</html>
