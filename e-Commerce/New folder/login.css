@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(
+    30deg,
+    rgb(0, 200, 255),
+    rgb(103, 103, 222),
+    rgb(212, 0, 255)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.inp {
+  border-bottom: 1px solid gray;
+  border-top: 0px solid gray;
+  border-left: 0px solid gray;
+  border-right: 0px solid gray;
+}
+#btn {
+  border-radius: 30px;
+  background-image: linear-gradient(
+    30deg,
+    rgb(0, 200, 255),
+    rgb(103, 103, 222),
+    rgb(212, 0, 255)
+  );
+  color: white;
+  border: 0px;
+}
+#social button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+}
+#social p {
+  color: rgb(112, 110, 110);
+}
+#fb {
+  border: 1px solid rgb(61, 61, 189);
+  background-color: rgb(61, 61, 189);
+}
+#tw {
+  border: 1px solid rgb(57, 154, 211);
+  background-color: rgb(57, 154, 211);
+}
+#go {
+  border: 1px solid brown;
+  background-color: brown;
+}
+#signup p {
+  color: rgb(112, 110, 110);
+}
+#signup a {
+  text-decoration: none;
+  color: black;
+}
