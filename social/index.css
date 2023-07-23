@@ -33,6 +33,7 @@
   color: white;
   pointer-events:painted;
   text-decoration: none;
+  width: fit-content;
 }
 #pf:hover {
   background-size: 230px;
